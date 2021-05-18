@@ -1,20 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
 
-:root{
+:root {
   --primary-white: #ffffff;
   --primary-orange: #f66300;
   --primary-red: #ef4035;
 
   --primary-red-hover: #f33501;
- 
-  --primary-dark: rgb(255,255,255,0);
+
+  --primary-dark: rgb(255, 255, 255, 0);
 }
 
-
-
-body{
-  font-family: "Roboto Condensed" sans-serif;
-
+body {
+  font-family: "Roboto Condensed", sans-serif !important;
 }
 
 .App {
@@ -56,60 +53,57 @@ body{
   }
 }
 
-
 /************************* Navigation bar*************************************** */
 
-nav{
+nav {
   z-index: 2;
 }
 
-.logo{
+.logo {
   width: 16.25rem;
 }
 
 /* nav links */
 
-nav a.nav-link{
+nav a.nav-link {
   cursor: pointer;
-  
 }
-nav ul li{
+nav ul li {
   text-transform: uppercase;
 }
 
-.navbar-nav > li > a{
+.navbar-nav > li > a {
   margin-right: 0.75rem;
   margin-left: 0.75rem;
-  color:var(--primary-white) !important;
+  color: var(--primary-white) !important;
   border-top: 00.1875rem solid var(--primary-dark);
 }
 
-.navbar-brand{
+.navbar-brand {
   max-width: 17.25rem;
   padding: 0 !important;
   height: 6rem !important;
 }
-.navbar-nav > li > a.active, .navbar-nav > li > a.active:focus{
+.navbar-nav > li > a.active,
+.navbar-nav > li > a.active:focus {
   border-top: 0.1875rem solid var(--primary-orange);
 }
-.navbar-nav > li > a:hover{
+.navbar-nav > li > a:hover {
   border-top: 0.1875rem solid var(--primary-orange);
 }
 
 /********************************HEADER.js******************************** */
 
- 
-.header-wrapper{
+.header-wrapper {
   position: relative;
   background: url(background.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   height: 90vh;
   width: auto;
+}
 
-} 
-
-.main-info{
+.main-info {
   display: flex;
   position: absolute;
   top: 0;
@@ -122,44 +116,44 @@ nav ul li{
   text-align: center;
   font-family: "Roboto Condensed", sans-serif;
   z-index: 1;
-
 }
-.main-info h1{
-  color:#a4f39d;
+.main-info h1 {
+  color: #a4f39d;
   text-transform: uppercase;
-
-
 }
 
-@media(max-width:768px){
-  .main-info h1 {font-size: 1.5rem !important;}
+@media (max-width: 768px) {
+  .main-info h1 {
+    font-size: 1.5rem !important;
+  }
 }
 /********************************Typed text******************************** */
 
-.typed-text{
+.typed-text {
   font-size: 2rem;
   color: var(--primary-white);
 }
-@media(max-width:768px){
-  .main-info h1 {font-size: 1.5rem !important;}
+@media (max-width: 768px) {
+  .main-info h1 {
+    font-size: 1.5rem !important;
+  }
 
-  .typed-text{
+  .typed-text {
     font-size: 1.7rem !important;
   }
 }
 /********************************C2a******************************** */
 
-.btn-main{
-  border: 1px solid var(--primary-red) ;
+.btn-main {
+  border: 1px solid var(--primary-red);
   text-decoration: none;
   text-transform: uppercase;
   border-radius: 0;
-  padding: 0.625rem 0.75rem 0.75rem 0.75rem ;
+  padding: 0.625rem 0.75rem 0.75rem 0.75rem;
   color: var(--primary-white);
   margin: 2rem;
-  
 }
-.btn-main:hover{
+.btn-main:hover {
   text-decoration: none;
   background-color: var(--primary-red-hover);
   transition: 0.2 ease-in-out;
@@ -167,16 +161,40 @@ nav ul li{
 }
 /********************************particles******************************** */
 
-.tsparticles-canvas-el{
+.tsparticles-canvas-el {
   position: absolute;
   height: 100vh;
   width: 100vh;
   z-index: 1;
 }
 
-@media(max-width:768px){
-  .particles-canvas{
+@media (max-width: 768px) {
+  .particles-canvas {
     display: none;
   }
+}
 
+/********************************about me******************************** */
+.photo-wrap{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profile-img{
+  width: 16rem;
+  border-radius:50% ;
+  padding: 0.3rem;
+  border: 1px solid var(--primary-orange);
+}
+.about-me-heading{
+  color: var(--primary-orange);
+  text-transform: uppercase;
+}
+
+@media(max-width:460px) {
+  .profile-img{
+    width: 10rem;
+
+  }
+  
 }
