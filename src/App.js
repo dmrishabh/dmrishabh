@@ -3,6 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import AboutMe from "./components/AboutMe";
+import Services from "./components/Services";
 import Particles from "react-particles-js";
 
 function App() {
@@ -25,7 +26,7 @@ function App() {
               type:"circle",
               stroke:{
                 width:6,
-                color:"#f9ab00"
+                color:"#E07C24"
               }
             }
           }
@@ -36,6 +37,7 @@ function App() {
       <Navbar />
       <Header />
       <AboutMe/>
+      <Services/>
     </>
   );
 }

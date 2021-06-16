@@ -12,7 +12,7 @@ const AboutMe = () => {
          
         </div>
 
-        <div className="col-lg-6 col-xm-12">
+        <div className= "col-lg-6 col-xm-12">
         <h1 className="about-me-heading">
             About me
         </h1>
@@ -40,3 +40,4 @@ const AboutMe = () => {
 };
 
 export default AboutMe;
+  
