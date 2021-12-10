@@ -7,9 +7,11 @@
 
 - 🌱 I’m currently learning **Full Stack Dev**
 
+-  👨‍💻 link to my portfolio  [https://github.com/dmrishabh](https://github.com/dmrishabh)
+
 - 👨‍💻 All of my projects are available at [https://github.com/dmrishabh](https://github.com/dmrishabh)
 
-- 📝 I regularly write articles on [https://dmrishabh.hashnode.dev/](https://dmrishabh.hashnode.dev/)
+- 📝 I sometimes write articles on [https://dmrishabh.hashnode.dev/](https://dmrishabh.hashnode.dev/)
 
 - 💬 Ask me about **Android JavaScript React**
 
