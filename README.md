@@ -7,7 +7,7 @@
 
 - 🌱 I’m currently learning **Full Stack Dev**
 
--  👨‍💻 link to my portfolio  [https://github.com/dmrishabh](https://github.com/dmrishabh)
+-  👨‍💻 link to my portfolio  [https://www.dmrishabh.netlify.app](https://www.dmrishabh.netlify.app)
 
 - 👨‍💻 All of my projects are available at [https://github.com/dmrishabh](https://github.com/dmrishabh)
 
