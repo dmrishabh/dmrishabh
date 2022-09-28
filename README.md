@@ -9,7 +9,9 @@
 
 -  👨‍💻 link to my portfolio  [https://dmrishabh.netlify.app/](https://dmrishabh.in/)
 
-- 👨‍💻 All of my projects are available at [https://github.com/dmrishabh](https://github.com/dmrishabh)
+- 👨‍💻 All of my personal projects are available at [https://github.com/dmrishabh](https://github.com/dmrishabh)
+
+- 👨‍💻 All of my client projects are available at [https://github.com/mmdmrishabh](https://github.com/mmdmrishabh)
 
 - 📝 I sometimes write articles on [https://dmrishabh.hashnode.dev/](https://dmrishabh.hashnode.dev/)
 
