@@ -5,7 +5,7 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=dmrishabh" alt="dmrishabh" /></a> </p>
 
-- 🌱 I’m currently learning **Full Stack Dev**
+- 🌱 I’m a **Full Stack Dev**
 
 -  👨‍💻 link to my portfolio  [https://dmrishabh.netlify.app/](https://dmrishabh.in/)
 
